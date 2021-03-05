@@ -239,7 +239,7 @@ class DetailScreenWidget extends StatelessWidget {
                     ))),
             Expanded(
                 child: ListView.builder(
-                  itemCount: title.length,
+                  itemCount: 1,
                   itemBuilder: (context, i) {
 
                   return Container(
@@ -249,7 +249,7 @@ class DetailScreenWidget extends StatelessWidget {
                     style: TextStyle(fontSize: 30, color: Colors.white)
                             ),
                   );
-                  };
+                  }
                 ),
             ),
 
